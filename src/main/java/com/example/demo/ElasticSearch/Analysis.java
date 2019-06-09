@@ -15,7 +15,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Component
+@SuppressWarnings("Duplicates")
+//@Component
 //@Order(3)
 public class Analysis implements CommandLineRunner {
     @Autowired
