@@ -4,6 +4,7 @@ import com.example.demo.dao.*;
 import com.example.demo.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -12,6 +13,7 @@ import java.util.List;
 
 @SuppressWarnings("Duplicates")
 @Component
+@Order(5)
 public class PlayerAnalysis implements CommandLineRunner {
     @Autowired
     private TweetRepository tweetRepository;

@@ -20,8 +20,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-//@Component
-//@Order(2)
+@Component
+@Order(3)
 public class XlsxReadKeyWords implements CommandLineRunner {
     @Autowired
     private TeamDao teamDao;

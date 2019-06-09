@@ -21,8 +21,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-//@Component
-//@Order(1)
+@Component
+@Order(1)
 public class XlsxRead implements CommandLineRunner {
     @Autowired
     private TeamDao teamDao;

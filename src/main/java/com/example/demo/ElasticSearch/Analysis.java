@@ -16,8 +16,8 @@ import java.util.Date;
 import java.util.List;
 
 @SuppressWarnings("Duplicates")
-//@Component
-//@Order(3)
+@Component
+@Order(4)
 public class Analysis implements CommandLineRunner {
     @Autowired
     private TweetRepository tweetRepository;

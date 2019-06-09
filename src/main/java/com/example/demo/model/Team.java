@@ -22,6 +22,9 @@ public class Team  implements Serializable {
     @Nullable
     private String name;
 
+    @Nullable
+    private String imgPath;
+
     // RELATIONS
 
     // Team -> Player
