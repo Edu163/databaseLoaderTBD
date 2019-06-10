@@ -7,5 +7,6 @@ import java.util.List;
 public interface TweetRepository extends ElasticsearchRepository<Tweet, Long> {
     List<Tweet> findAllByText(String text);
     List<Tweet> findByPublicationDateBetween(Long date1, Long date2);
+    List<Tweet> findByPublicationDateBetweenAndText(Long date1, Long date2, String text);
 
 }

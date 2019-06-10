@@ -42,6 +42,10 @@ public class Team  implements Serializable {
     @JsonIgnore
     private List<TeamStat> teamStatList;
 
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "team")
+    @JsonIgnore
+    private List<TeamStatByDate> teamStatByDateList;
+
     // CONSTRUCTOR
     public Team(@Nullable String name) {
         this.name = name;
