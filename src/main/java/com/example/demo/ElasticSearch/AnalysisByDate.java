@@ -36,9 +36,9 @@ public class AnalysisByDate implements CommandLineRunner {
     @Autowired
     private TeamNicknameDao teamNicknameDao;
 
-    private String[] dates = {"2019-05-27","2019-05-28","2019-05-29","2019-05-30","2019-05-31","2019-06-01","2019-06-02"
-            ,"2019-06-03","2019-06-04","2019-06-05","2019-06-06","2019-06-07","2019-06-08","2019-06-09","2019-06-10"
-            ,"2019-06-11"};
+    private String[] dates = {"2019-07-01","2019-07-02","2019-07-03","2019-07-04","2019-07-05","2019-07-06","2019-07-07"
+            ,"2019-07-08","2019-07-09","2019-07-10","2019-07-11","2019-07-12","2019-07-13","2019-07-14","2019-07-15"
+            ,"2019-07-16"};
 
     /*public List<Tweet> findByDate(String date1, String date2, String text){
         String myDate1 = date1 + " 00:00:00";
